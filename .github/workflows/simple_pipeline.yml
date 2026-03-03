@@ -2,7 +2,7 @@ name: Hello World
 on: [push]
 jobs:
   hello-world:
-    runs-on: alpine-latest
+    runs-on: arch-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
