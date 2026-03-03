@@ -2,7 +2,7 @@ name: Hello World
 on: [push]
 jobs:
   hello-world:
-    runs-on: arch-latest
+    runs-on: ubuntu-slim
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
